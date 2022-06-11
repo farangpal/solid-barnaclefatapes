@@ -166,7 +166,7 @@
     font-weight:700;
     margin:0 0 0 20px;
     height:36px;
-    font-family:"Clash Display",sans-serif
+    font-family:"poppins",sans-serif
    }
    .mint-button {
     padding:.5em 2em!important;
@@ -179,10 +179,9 @@
    .mint-error {
     display:block;
     color:rgb(255, 255, 255);
-    font-family:"Clash Display",sans-serif;
+    font-family:"poppins",sans-serif;
     letter-spacing:.11em;
     height:20px
-    padding-top: 10px !important;
    }
    .modal-wrapper {
     position:fixed;
@@ -195,9 +194,10 @@
     display:flex;
     justify-content:center;
     align-items:center
+    
    }
    .modal-wrapper .mint-wrapper-2 {
-    border:2px solid #fffc00;
+    border:2px solid #00aaff;
     border-radius:30px;
     position:relative;
     background-color:rgba(33,32,40,.9882352941176471);
@@ -236,7 +236,7 @@
     color:tomato;
     font-weight:700;
     transition:all .3s;
-    font-family:"Clash Display",sans-serif
+    font-family:"poppins",sans-serif
    }
    .modal-exit:hover {
     color:#fff
@@ -259,7 +259,7 @@
     background-color: #ffd;
     -webkit-transition: box-shadow 200ms cubic-bezier(.25, .46, .45, .94);
     transition: box-shadow 200ms cubic-bezier(.25, .46, .45, .94);
-    font-family: 'Clash Display', sans-serif;
+    font-family: 'poppins', sans-serif;
     color: #161616;
     font-size: 2.5em;
     font-weight: 800;
@@ -307,7 +307,7 @@
 
 
   .h3 {
-  font-family: 'Clash Display', sans-serif;
+  font-family: 'poppins', sans-serif;
   color: #161616;
   font-size: 3em;
   line-height: 120%;
@@ -316,7 +316,7 @@
 
 .h3.h-yellow {
   margin-top: 0px;
-  color: #fffc00;
+  color: #00d0ff;
 }
 
 .h3.h-center {
@@ -345,7 +345,7 @@
 }
 
 .h2 {
-  font-family: 'Clash Display', sans-serif;
+  font-family: 'poppins', sans-serif;
   color: #fff;
   font-size: 3.33em;
   line-height: 120%;
@@ -357,17 +357,17 @@
 }
 
 .text-span-2 {
-  color: #fffc00;
+  color: #006eff;
 }
 
 .artists-wrap {
   padding-top: 6.94em;
   padding-bottom: 6.94em;
-  background-color: #fffc00;
+  background-color: #0040ff;
 }
 
 .h1 {
-  font-family: 'Clash Display', sans-serif;
+  font-family: 'poppins', sans-serif;
   
   font-size: 4.44em;
   line-height: 120%;
@@ -400,4 +400,5 @@
   color: #fff;
   font-size: 1.39em;
   line-height: 120%;
+  padding-top: 10px;
 }
